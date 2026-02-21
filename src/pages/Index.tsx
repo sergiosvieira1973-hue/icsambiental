@@ -187,8 +187,8 @@ const Index = () => {
         <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-10 text-center">Parcerias</h2>
         <div className="flex flex-wrap justify-center gap-6">
           {partners.map(p => (
-            <div key={p.name} className="w-24 h-24 rounded-lg bg-secondary border border-border flex items-center justify-center" title={p.name}>
-              <span className="font-heading text-xl font-bold text-primary">{p.initials}</span>
+            <div key={p.name} className="w-28 h-20 rounded-lg bg-card border border-border flex items-center justify-center p-3" title={p.name}>
+              <img src={p.logo} alt={p.name} className="max-h-full max-w-full object-contain" loading="lazy" />
             </div>
           ))}
         </div>
