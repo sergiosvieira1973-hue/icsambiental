@@ -17,8 +17,8 @@ const Partners = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {partners.map(p => (
             <div key={p.name} className="border border-border rounded-lg p-6 bg-card">
-              <div className="w-16 h-16 rounded-lg bg-secondary flex items-center justify-center mb-4">
-                <span className="font-heading text-2xl font-bold text-primary">{p.initials}</span>
+              <div className="w-20 h-20 rounded-lg bg-secondary flex items-center justify-center mb-4 p-2">
+                <img src={p.logo} alt={p.name} className="max-h-full max-w-full object-contain" loading="lazy" />
               </div>
               <h2 className="font-heading text-base font-semibold text-foreground mb-2">{p.name}</h2>
               <p className="text-sm text-muted-foreground">{p.shortDescription}</p>
