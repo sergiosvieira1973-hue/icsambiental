@@ -68,7 +68,7 @@ const Index = () => {
                 </Button>
               </a>
               <Link to="/servicos">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 gap-2">
+                <Button size="lg" variant="hero-outline" className="w-full sm:w-auto gap-2">
                   Ver serviços
                   <ArrowRight size={16} />
                 </Button>
