@@ -139,7 +139,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-16 md:py-20">
           <div className="max-w-3xl mx-auto">
             <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-              Por que a ICS Ambiental
+              Por que a ICS Serviços Especializados
             </h2>
             <div className="space-y-4">
               {whyBullets.map((text, i) => (
@@ -203,7 +203,7 @@ const Index = () => {
                 Precisa regularizar, licenciar ou organizar a gestão ambiental da sua empresa?
               </h2>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-                Fale com a ICS Ambiental. Diagnóstico rápido, proposta clara e acompanhamento até o resultado.
+                Fale com a ICS Serviços Especializados. Diagnóstico rápido, proposta clara e acompanhamento até o resultado.
               </p>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="secondary" className="gap-2">

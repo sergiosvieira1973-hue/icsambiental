@@ -67,7 +67,7 @@ const ArticleDetail = () => {
 
           <div className="bg-primary rounded-lg p-6 text-center">
             <h3 className="font-heading text-lg font-bold text-primary-foreground mb-2">Precisa de ajuda com esse tema?</h3>
-            <p className="text-primary-foreground/80 text-sm mb-4">Fale com a equipe da ICS Ambiental.</p>
+            <p className="text-primary-foreground/80 text-sm mb-4">Fale com a equipe da ICS Serviços Especializados.</p>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <Button variant="secondary" className="gap-2">
                 <MessageCircle size={16} /> WhatsApp

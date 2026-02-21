@@ -18,7 +18,7 @@ const About = () => {
         <div className="max-w-3xl mx-auto space-y-8">
           <div>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A ICS Ambiental é uma empresa de consultoria ambiental especializada em atender outras empresas que precisam licenciar atividades, elaborar estudos e planos ambientais, gerenciar resíduos e manter a conformidade com a legislação ambiental brasileira.
+              A ICS Serviços Especializados é uma empresa de consultoria ambiental especializada em atender outras empresas que precisam licenciar atividades, elaborar estudos e planos ambientais, gerenciar resíduos e manter a conformidade com a legislação ambiental brasileira.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Nosso trabalho começa pela compreensão real do cenário de cada cliente. Não oferecemos soluções genéricas — cada projeto é tratado com análise técnica aprofundada, documentação organizada e acompanhamento ativo junto aos órgãos ambientais.
@@ -84,7 +84,7 @@ const About = () => {
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2">
                 <MessageCircle size={18} />
-                Falar com a ICS Ambiental
+                Falar com a ICS Serviços Especializados
               </Button>
             </a>
           </div>

@@ -38,7 +38,7 @@ export const services: Service[] = [
     ],
     description: [
       'O PGRS é o documento que descreve as ações relativas ao manejo dos resíduos sólidos, contemplando os aspectos referentes à geração, segregação, acondicionamento, coleta, armazenamento, transporte, tratamento e disposição final ambientalmente adequada.',
-      'A ICS Ambiental elabora o plano completo — do diagnóstico de campo à entrega do documento final pronto para protocolar no órgão ambiental competente.',
+      'A ICS Serviços Especializados elabora o plano completo — do diagnóstico de campo à entrega do documento final pronto para protocolar no órgão ambiental competente.',
     ],
     targetAudience: 'Indústrias, construtoras, comércios de grande porte, terminais logísticos, condomínios empresariais e qualquer empreendimento gerador de resíduos sólidos.',
     deliverables: [
@@ -67,10 +67,10 @@ export const services: Service[] = [
     faq: [
       { q: 'Toda empresa precisa de PGRS?', a: 'A obrigatoriedade varia conforme legislação estadual/municipal e porte do empreendimento. Consulte-nos para verificar a aplicabilidade ao seu caso.' },
       { q: 'O PGRS tem validade?', a: 'Sim. Em geral, precisa ser revisado anualmente ou sempre que houver alteração significativa no processo produtivo.' },
-      { q: 'A ICS Ambiental acompanha a aprovação?', a: 'Sim. Acompanhamos todo o processo de protocolo e eventuais complementações solicitadas pelo órgão.' },
+      { q: 'A ICS Serviços Especializados acompanha a aprovação?', a: 'Sim. Acompanhamos todo o processo de protocolo e eventuais complementações solicitadas pelo órgão.' },
     ],
     featured: true,
-    seoTitle: 'PGRS — Plano de Gerenciamento de Resíduos Sólidos | ICS Ambiental',
+    seoTitle: 'PGRS — Plano de Gerenciamento de Resíduos Sólidos | ICS Serviços Especializados',
     seoDescription: 'Elaboração completa de PGRS conforme a PNRS. Diagnóstico, classificação de resíduos e plano operacional. Solicite orçamento.',
   },
   {
@@ -85,7 +85,7 @@ export const services: Service[] = [
     ],
     description: [
       'O PGRSS contempla todas as etapas do manejo dos resíduos de serviços de saúde, desde a geração até a disposição final, conforme as resoluções da ANVISA e do CONAMA.',
-      'A ICS Ambiental possui experiência com hospitais, clínicas, laboratórios e demais estabelecimentos geradores de RSS.',
+      'A ICS Serviços Especializados possui experiência com hospitais, clínicas, laboratórios e demais estabelecimentos geradores de RSS.',
     ],
     deliverables: [
       'Classificação dos resíduos conforme grupos (A, B, C, D, E)',
@@ -112,7 +112,7 @@ export const services: Service[] = [
       { q: 'O plano substitui o alvará sanitário?', a: 'Não. O PGRSS é complementar ao alvará e costuma ser requisito para sua renovação.' },
     ],
     featured: true,
-    seoTitle: 'PGRSS — Resíduos de Serviços de Saúde | ICS Ambiental',
+    seoTitle: 'PGRSS — Resíduos de Serviços de Saúde | ICS Serviços Especializados',
     seoDescription: 'Elaboração de PGRSS conforme ANVISA e CONAMA para clínicas, hospitais e laboratórios. Solicite orçamento.',
   },
   {
@@ -127,7 +127,7 @@ export const services: Service[] = [
     ],
     description: [
       'A Licença Prévia (LP) é concedida na fase preliminar do planejamento do empreendimento, atestando a viabilidade ambiental e estabelecendo condicionantes que deverão ser atendidas nas fases seguintes.',
-      'A ICS Ambiental conduz todo o processo — da caracterização do empreendimento à obtenção da licença junto ao órgão competente.',
+      'A ICS Serviços Especializados conduz todo o processo — da caracterização do empreendimento à obtenção da licença junto ao órgão competente.',
     ],
     deliverables: [
       'Estudo de viabilidade ambiental da localização',
@@ -152,7 +152,7 @@ export const services: Service[] = [
       { q: 'A LP autoriza o início das obras?', a: 'Não. A LP atesta a viabilidade ambiental. Para iniciar obras, é necessário obter a Licença de Instalação (LI).' },
     ],
     featured: false,
-    seoTitle: 'Licença Prévia (LP) — Licenciamento Ambiental | ICS Ambiental',
+    seoTitle: 'Licença Prévia (LP) — Licenciamento Ambiental | ICS Serviços Especializados',
     seoDescription: 'Assessoria completa para obtenção de Licença Prévia. Viabilidade ambiental do seu empreendimento.',
   },
   {
@@ -167,7 +167,7 @@ export const services: Service[] = [
     ],
     description: [
       'A LS é aplicável a atividades de baixo potencial poluidor ou degradador, conforme critérios do órgão ambiental. Reúne as fases de LP, LI e LO em um único procedimento.',
-      'A ICS Ambiental verifica a elegibilidade do empreendimento e conduz todo o processo de obtenção.',
+      'A ICS Serviços Especializados verifica a elegibilidade do empreendimento e conduz todo o processo de obtenção.',
     ],
     deliverables: [
       'Verificação de enquadramento na modalidade simplificada',
@@ -190,7 +190,7 @@ export const services: Service[] = [
       { q: 'Como saber se minha atividade se enquadra na LS?', a: 'O enquadramento depende do órgão ambiental e do tipo/porte da atividade. Fazemos essa análise preliminar gratuitamente.' },
     ],
     featured: false,
-    seoTitle: 'Licença Simplificada (LS) | ICS Ambiental',
+    seoTitle: 'Licença Simplificada (LS) | ICS Serviços Especializados',
     seoDescription: 'Licenciamento ambiental simplificado para atividades de menor impacto. Processo ágil e completo.',
   },
   {
@@ -205,7 +205,7 @@ export const services: Service[] = [
     ],
     description: [
       'A Licença de Operação (LO) é a etapa final do licenciamento trifásico, autorizando a operação do empreendimento após comprovação de que todas as condicionantes da LP e LI foram cumpridas.',
-      'A ICS Ambiental cuida desde a organização das evidências de cumprimento até o acompanhamento pós-emissão.',
+      'A ICS Serviços Especializados cuida desde a organização das evidências de cumprimento até o acompanhamento pós-emissão.',
     ],
     deliverables: [
       'Organização e compilação das evidências de cumprimento das condicionantes',
@@ -233,7 +233,7 @@ export const services: Service[] = [
       { q: 'O que acontece se a LO vencer?', a: 'A operação sem licença válida é infração ambiental. É essencial iniciar o processo de renovação com antecedência.' },
     ],
     featured: true,
-    seoTitle: 'Licença de Operação (LO) — Licenciamento Ambiental | ICS Ambiental',
+    seoTitle: 'Licença de Operação (LO) — Licenciamento Ambiental | ICS Serviços Especializados',
     seoDescription: 'Obtenção e renovação de Licença de Operação. Conformidade ambiental garantida para sua empresa.',
   },
   {
@@ -247,7 +247,7 @@ export const services: Service[] = [
     ],
     description: [
       'O Relatório de Controle Ambiental (RCA) apresenta o diagnóstico ambiental da área de influência do empreendimento e propõe medidas de controle, mitigação e monitoramento dos impactos identificados.',
-      'A ICS Ambiental elabora o RCA com rigor técnico, reduzindo o risco de complementações e agilizando a análise pelo órgão ambiental.',
+      'A ICS Serviços Especializados elabora o RCA com rigor técnico, reduzindo o risco de complementações e agilizando a análise pelo órgão ambiental.',
     ],
     deliverables: [
       'Diagnóstico ambiental dos meios físico, biótico e socioeconômico',
@@ -273,7 +273,7 @@ export const services: Service[] = [
       { q: 'Qual a diferença entre RCA e EIA/RIMA?', a: 'O RCA é exigido para empreendimentos de médio impacto, enquanto o EIA/RIMA se aplica a empreendimentos de alto impacto. O escopo do RCA é mais simplificado.' },
     ],
     featured: true,
-    seoTitle: 'RCA — Relatório de Controle Ambiental | ICS Ambiental',
+    seoTitle: 'RCA — Relatório de Controle Ambiental | ICS Serviços Especializados',
     seoDescription: 'Elaboração de RCA para licenciamento ambiental. Diagnóstico e medidas mitigadoras com rigor técnico.',
   },
   {
@@ -310,7 +310,7 @@ export const services: Service[] = [
       { q: 'Quando o RAS é aceito no lugar do RCA?', a: 'O órgão ambiental define qual estudo é necessário com base no tipo, porte e localização do empreendimento.' },
     ],
     featured: false,
-    seoTitle: 'RAS — Relatório Ambiental Simplificado | ICS Ambiental',
+    seoTitle: 'RAS — Relatório Ambiental Simplificado | ICS Serviços Especializados',
     seoDescription: 'RAS para licenciamento simplificado. Estudo ambiental ágil e conforme para empreendimentos de menor impacto.',
   },
   {
@@ -348,7 +348,7 @@ export const services: Service[] = [
       { q: 'O PCA é o mesmo que o PRAD?', a: 'Não. O PCA trata de medidas de controle durante a operação. O PRAD (Plano de Recuperação de Área Degradada) é específico para recuperação de áreas já impactadas.' },
     ],
     featured: false,
-    seoTitle: 'PCA — Plano de Controle Ambiental | ICS Ambiental',
+    seoTitle: 'PCA — Plano de Controle Ambiental | ICS Serviços Especializados',
     seoDescription: 'Elaboração de PCA com medidas concretas de controle ambiental, cronograma e indicadores de acompanhamento.',
   },
   {
@@ -362,7 +362,7 @@ export const services: Service[] = [
       'Sem gestão integrada, há risco de não conformidade em auditorias e fiscalizações.',
     ],
     description: [
-      'A ICS Ambiental implanta e opera sistemas de gestão de resíduos sob medida para cada cliente. O serviço vai além da elaboração do PGRS — inclui a operação cotidiana, a rastreabilidade da destinação e a geração de indicadores de desempenho.',
+      'A ICS Serviços Especializados implanta e opera sistemas de gestão de resíduos sob medida para cada cliente. O serviço vai além da elaboração do PGRS — inclui a operação cotidiana, a rastreabilidade da destinação e a geração de indicadores de desempenho.',
     ],
     targetAudience: 'Indústrias, construtoras, hospitais, condomínios empresariais e operações com múltiplas unidades geradoras.',
     deliverables: [
@@ -389,7 +389,7 @@ export const services: Service[] = [
       { q: 'A ICS assume a responsabilidade sobre os resíduos?', a: 'A responsabilidade legal é compartilhada entre gerador, transportador e destinador, conforme a PNRS. A ICS garante a gestão documental e operacional para minimizar riscos.' },
     ],
     featured: true,
-    seoTitle: 'Gestão de Resíduos — Operação e Rastreabilidade | ICS Ambiental',
+    seoTitle: 'Gestão de Resíduos — Operação e Rastreabilidade | ICS Serviços Especializados',
     seoDescription: 'Gestão operacional de resíduos com rastreabilidade, indicadores e compliance. Serviço contínuo para sua empresa.',
   },
   {
@@ -403,7 +403,7 @@ export const services: Service[] = [
       'Muitas condicionantes de licença exigem comprovação de treinamentos periódicos.',
     ],
     description: [
-      'A ICS Ambiental oferece treinamentos sob medida, presenciais ou remotos, para equipes operacionais, técnicas e de gestão. Os conteúdos são adaptados ao setor e às necessidades específicas de cada cliente.',
+      'A ICS Serviços Especializados oferece treinamentos sob medida, presenciais ou remotos, para equipes operacionais, técnicas e de gestão. Os conteúdos são adaptados ao setor e às necessidades específicas de cada cliente.',
     ],
     deliverables: [
       'Programa de treinamento personalizado',
@@ -429,7 +429,7 @@ export const services: Service[] = [
       { q: 'Vocês emitem certificado?', a: 'Sim. Todos os participantes recebem certificado com carga horária e conteúdo programático.' },
     ],
     featured: false,
-    seoTitle: 'Treinamentos e Educação Ambiental | ICS Ambiental',
+    seoTitle: 'Treinamentos e Educação Ambiental | ICS Serviços Especializados',
     seoDescription: 'Capacitações em gestão ambiental, resíduos e compliance para equipes. Certificados e relatórios inclusos.',
   },
   {
@@ -443,7 +443,7 @@ export const services: Service[] = [
       'Municípios frequentemente carecem de equipe técnica própria para esse acompanhamento.',
     ],
     description: [
-      'A ICS Ambiental atua na supervisão técnica de contratos de coleta, transporte e destinação de resíduos urbanos, verificando indicadores de desempenho, conformidade operacional e cumprimento de cláusulas contratuais.',
+      'A ICS Serviços Especializados atua na supervisão técnica de contratos de coleta, transporte e destinação de resíduos urbanos, verificando indicadores de desempenho, conformidade operacional e cumprimento de cláusulas contratuais.',
       'O serviço inclui relatórios periódicos, auditorias de campo e suporte técnico para decisões contratuais.',
     ],
     targetAudience: 'Prefeituras, autarquias de limpeza urbana e concessionárias de serviços públicos.',
@@ -471,7 +471,7 @@ export const services: Service[] = [
       { q: 'Vocês atuam em todo o Brasil?', a: 'Sim. Temos experiência com contratos em diferentes estados e municípios. Consulte-nos sobre disponibilidade para sua região.' },
     ],
     featured: true,
-    seoTitle: 'Gestão de Contratos de Coleta de Resíduos Urbanos | ICS Ambiental',
+    seoTitle: 'Gestão de Contratos de Coleta de Resíduos Urbanos | ICS Serviços Especializados',
     seoDescription: 'Supervisão técnica de contratos de coleta de resíduos urbanos. Indicadores, auditorias e relatórios.',
   },
 ];

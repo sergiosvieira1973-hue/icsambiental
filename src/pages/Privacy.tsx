@@ -13,7 +13,7 @@ const Privacy = () => {
       <section className="container mx-auto px-4 py-10">
         <div className="max-w-3xl mx-auto prose-custom space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            A ICS Ambiental ("nós", "nosso") valoriza a privacidade dos visitantes e clientes que utilizam este site. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
+            A ICS Serviços Especializados ("nós", "nosso") valoriza a privacidade dos visitantes e clientes que utilizam este site. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">1. Dados que coletamos</h2>

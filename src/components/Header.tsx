@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { WHATSAPP_URL } from '@/lib/constants';
+import logoIcs from '@/assets/logo-ics.png';
 
 const navLinks = [
   { to: '/', label: 'Início' },
@@ -22,8 +23,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-heading text-xl font-bold text-primary">ICS</span>
-          <span className="hidden sm:inline font-heading text-sm font-semibold text-foreground">AMBIENTAL</span>
+          <img src={logoIcs} alt="ICS Serviços Especializados" className="h-10" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
