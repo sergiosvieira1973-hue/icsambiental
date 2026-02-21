@@ -24,7 +24,7 @@ const News = () => {
           <div className="flex items-start gap-2 mt-4 bg-secondary border border-border rounded-lg p-3">
             <AlertTriangle size={16} className="text-muted-foreground shrink-0 mt-0.5" />
             <p className="text-xs text-muted-foreground">
-              Links externos. A ICS Ambiental apenas organiza e resume as notícias publicadas por fontes terceiras.
+              Links externos. A ICS Serviços Especializados apenas organiza e resume as notícias publicadas por fontes terceiras.
             </p>
           </div>
         </div>

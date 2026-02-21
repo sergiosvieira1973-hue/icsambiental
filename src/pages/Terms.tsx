@@ -13,7 +13,7 @@ const Terms = () => {
       <section className="container mx-auto px-4 py-10">
         <div className="max-w-3xl mx-auto prose-custom space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            Ao acessar e utilizar o site da ICS Ambiental, você concorda com os termos e condições descritos abaixo. Caso não concorde com algum dos termos, recomendamos que não utilize o site.
+            Ao acessar e utilizar o site da ICS Serviços Especializados, você concorda com os termos e condições descritos abaixo. Caso não concorde com algum dos termos, recomendamos que não utilize o site.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">1. Uso do site</h2>
@@ -23,22 +23,22 @@ const Terms = () => {
 
           <h2 className="font-heading text-xl font-semibold text-foreground">2. Propriedade intelectual</h2>
           <p>
-            Todo o conteúdo do site — textos, imagens, logotipos, layout e materiais gráficos — é de propriedade da ICS Ambiental ou utilizado com autorização. É proibida a reprodução, distribuição ou modificação sem autorização prévia por escrito.
+            Todo o conteúdo do site — textos, imagens, logotipos, layout e materiais gráficos — é de propriedade da ICS Serviços Especializados ou utilizado com autorização. É proibida a reprodução, distribuição ou modificação sem autorização prévia por escrito.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">3. Links externos</h2>
           <p>
-            O site pode conter links para sites de terceiros, especialmente na seção de Notícias. A ICS Ambiental não se responsabiliza pelo conteúdo, políticas de privacidade ou práticas de sites externos.
+            O site pode conter links para sites de terceiros, especialmente na seção de Notícias. A ICS Serviços Especializados não se responsabiliza pelo conteúdo, políticas de privacidade ou práticas de sites externos.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">4. Limitação de responsabilidade</h2>
           <p>
-            A ICS Ambiental não garante que o site estará disponível ininterruptamente ou livre de erros. Não nos responsabilizamos por danos diretos ou indiretos decorrentes do uso ou da impossibilidade de uso do site.
+            A ICS Serviços Especializados não garante que o site estará disponível ininterruptamente ou livre de erros. Não nos responsabilizamos por danos diretos ou indiretos decorrentes do uso ou da impossibilidade de uso do site.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">5. Informações enviadas pelo usuário</h2>
           <p>
-            Ao enviar informações através dos formulários do site, você declara que os dados fornecidos são verdadeiros e autoriza a ICS Ambiental a utilizá-los conforme descrito na Política de Privacidade.
+            Ao enviar informações através dos formulários do site, você declara que os dados fornecidos são verdadeiros e autoriza a ICS Serviços Especializados a utilizá-los conforme descrito na Política de Privacidade.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">6. Alterações nos termos</h2>
