@@ -1,7 +1,9 @@
 import { useState, useMemo } from 'react';
 import { ExternalLink, Calendar, AlertTriangle, Star } from 'lucide-react';
 import Layout from '@/components/Layout';
+import PageHero from '@/components/PageHero';
 import { newsItems } from '@/data/news';
+import heroNews from '@/assets/hero-news.jpg';
 
 const allCategories = Array.from(new Set(newsItems.map(n => n.category)));
 const highlights = newsItems.filter(n => n.weeklyHighlight);
@@ -15,20 +17,18 @@ const News = () => {
 
   return (
     <Layout>
-      <section className="bg-background-alt border-b border-border">
-        <div className="container mx-auto px-4 py-12 md:py-16">
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Notícias</h1>
-          <p className="text-muted-foreground max-w-2xl">
-            Resumo de notícias ambientais relevantes para empresas.
+      <PageHero
+        title="Notícias"
+        description="Resumo de notícias ambientais relevantes para empresas."
+        image={heroNews}
+      >
+        <div className="flex items-start gap-2 mt-4 bg-white/10 border border-white/20 rounded-lg p-3">
+          <AlertTriangle size={16} className="text-primary-foreground/70 shrink-0 mt-0.5" />
+          <p className="text-xs text-primary-foreground/70">
+            Links externos. A ICS Serviços Especializados apenas organiza e resume as notícias publicadas por fontes terceiras.
           </p>
-          <div className="flex items-start gap-2 mt-4 bg-secondary border border-border rounded-lg p-3">
-            <AlertTriangle size={16} className="text-muted-foreground shrink-0 mt-0.5" />
-            <p className="text-xs text-muted-foreground">
-              Links externos. A ICS Serviços Especializados apenas organiza e resume as notícias publicadas por fontes terceiras.
-            </p>
-          </div>
         </div>
-      </section>
+      </PageHero>
 
       <section className="container mx-auto px-4 py-10">
         {/* Weekly highlights */}

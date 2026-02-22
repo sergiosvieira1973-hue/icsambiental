@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import { ChevronRight, Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import Layout from '@/components/Layout';
+import PageHero from '@/components/PageHero';
 import { services, categories } from '@/data/services';
+import heroServices from '@/assets/hero-services.jpg';
 
 const Services = () => {
   const [search, setSearch] = useState('');
@@ -19,46 +21,44 @@ const Services = () => {
 
   return (
     <Layout>
-      <section className="bg-background-alt border-b border-border">
-        <div className="container mx-auto px-4 py-12 md:py-16">
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Serviços</h1>
-          <p className="text-muted-foreground max-w-2xl mb-8">
-            Soluções completas em consultoria ambiental — do licenciamento à gestão operacional.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 mb-6">
-            <div className="relative max-w-sm">
-              <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
-              <Input
-                placeholder="Buscar serviço..."
-                value={search}
-                onChange={e => setSearch(e.target.value)}
-                className="pl-9"
-              />
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setActiveCategory(null)}
-              className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
-                !activeCategory ? 'bg-primary text-primary-foreground border-primary' : 'bg-card text-muted-foreground border-border hover:border-primary'
-              }`}
-            >
-              Todos
-            </button>
-            {categories.map(cat => (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
-                  activeCategory === cat ? 'bg-primary text-primary-foreground border-primary' : 'bg-card text-muted-foreground border-border hover:border-primary'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+      <PageHero
+        title="Serviços"
+        description="Soluções completas em consultoria ambiental — do licenciamento à gestão operacional."
+        image={heroServices}
+      >
+        <div className="flex flex-col sm:flex-row gap-4 mt-8 mb-6">
+          <div className="relative max-w-sm">
+            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-primary-foreground/50" />
+            <Input
+              placeholder="Buscar serviço..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              className="pl-9 bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50"
+            />
           </div>
         </div>
-      </section>
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={() => setActiveCategory(null)}
+            className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
+              !activeCategory ? 'bg-primary-foreground text-foreground border-primary-foreground' : 'bg-white/10 text-primary-foreground border-white/20 hover:border-white/40'
+            }`}
+          >
+            Todos
+          </button>
+          {categories.map(cat => (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
+              className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
+                activeCategory === cat ? 'bg-primary-foreground text-foreground border-primary-foreground' : 'bg-white/10 text-primary-foreground border-white/20 hover:border-white/40'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      </PageHero>
 
       <section className="container mx-auto px-4 py-10">
         {filtered.length === 0 ? (

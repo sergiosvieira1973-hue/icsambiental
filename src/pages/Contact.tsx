@@ -1,9 +1,11 @@
 import { MessageCircle, Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
+import PageHero from '@/components/PageHero';
 import ContactForm from '@/components/ContactForm';
 import { WHATSAPP_URL, WHATSAPP_MESSAGE, EMAIL, PHONE_DISPLAY } from '@/lib/constants';
 import { toast } from '@/hooks/use-toast';
+import heroContact from '@/assets/hero-contact.jpg';
 
 const Contact = () => {
   const copyMessage = () => {
@@ -13,14 +15,11 @@ const Contact = () => {
 
   return (
     <Layout>
-      <section className="bg-background-alt border-b border-border">
-        <div className="container mx-auto px-4 py-12 md:py-16">
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Contato</h1>
-          <p className="text-muted-foreground max-w-2xl">
-            Quer um orçamento ou tirar uma dúvida técnica? Chama a gente.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        title="Contato"
+        description="Quer um orçamento ou tirar uma dúvida técnica? Chama a gente."
+        image={heroContact}
+      />
 
       <section className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
