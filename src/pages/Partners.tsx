@@ -1,17 +1,17 @@
-import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
+import PageHero from '@/components/PageHero';
 import ContactForm from '@/components/ContactForm';
 import { partners } from '@/data/partners';
+import heroPartners from '@/assets/hero-partners.jpg';
 
 const Partners = () => {
   return (
     <Layout>
-      <section className="bg-background-alt border-b border-border">
-        <div className="container mx-auto px-4 py-12 md:py-16">
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Parcerias</h1>
-          <p className="text-muted-foreground max-w-2xl">Empresas e instituições que confiam no nosso trabalho.</p>
-        </div>
-      </section>
+      <PageHero
+        title="Parcerias"
+        description="Empresas e instituições que confiam no nosso trabalho."
+        image={heroPartners}
+      />
 
       <section className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">

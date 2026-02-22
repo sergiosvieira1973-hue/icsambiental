@@ -1,19 +1,18 @@
 import { Link } from 'react-router-dom';
-import { ChevronRight, Calendar, Clock } from 'lucide-react';
+import { Calendar, Clock } from 'lucide-react';
 import Layout from '@/components/Layout';
+import PageHero from '@/components/PageHero';
 import { articles } from '@/data/articles';
+import heroArticles from '@/assets/hero-articles.jpg';
 
 const Articles = () => {
   return (
     <Layout>
-      <section className="bg-background-alt border-b border-border">
-        <div className="container mx-auto px-4 py-12 md:py-16">
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Artigos</h1>
-          <p className="text-muted-foreground max-w-2xl">
-            Conteúdo técnico e prático sobre gestão ambiental, licenciamento e compliance.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        title="Artigos"
+        description="Conteúdo técnico e prático sobre gestão ambiental, licenciamento e compliance."
+        image={heroArticles}
+      />
 
       <section className="container mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

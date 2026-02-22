@@ -1,18 +1,19 @@
 import { Shield, Target, MapPin, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
+import PageHero from '@/components/PageHero';
 import { WHATSAPP_URL } from '@/lib/constants';
 import { MessageCircle } from 'lucide-react';
+import heroAbout from '@/assets/hero-about.jpg';
 
 const About = () => {
   return (
     <Layout>
-      <section className="bg-background-alt border-b border-border">
-        <div className="container mx-auto px-4 py-12 md:py-16">
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Quem somos</h1>
-          <p className="text-muted-foreground max-w-2xl">Consultoria ambiental com foco em resultado para empresas.</p>
-        </div>
-      </section>
+      <PageHero
+        title="Quem somos"
+        description="Consultoria ambiental com foco em resultado para empresas."
+        image={heroAbout}
+      />
 
       <section className="container mx-auto px-4 py-12 md:py-16">
         <div className="max-w-3xl mx-auto space-y-8">
