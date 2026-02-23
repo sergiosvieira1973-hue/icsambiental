@@ -21,6 +21,7 @@ export const articles: Article[] = [
   {
     title: 'Licenciamento ambiental: o que costuma travar processos e como evitar retrabalho',
     slug: 'licenciamento-ambiental-como-evitar-retrabalho',
+    coverImage: licenciamentoImg,
     excerpt: 'Entenda os motivos mais comuns de atrasos no licenciamento ambiental e como preparar um processo mais assertivo desde o início.',
     content: [
       '## Por que processos de licenciamento atrasam?',
