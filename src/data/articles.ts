@@ -49,6 +49,7 @@ export const articles: Article[] = [
   {
     title: 'PGRS na prática: evidências que ajudam em auditoria e fiscalização',
     slug: 'pgrs-evidencias-auditoria-fiscalizacao',
+    coverImage: pgrsImg,
     excerpt: 'Saiba quais registros e controles manter para comprovar a conformidade do seu PGRS em auditorias internas e fiscalizações ambientais.',
     content: [
       '## O PGRS como ferramenta de gestão, não apenas documento',
