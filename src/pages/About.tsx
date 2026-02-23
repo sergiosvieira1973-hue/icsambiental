@@ -77,7 +77,7 @@ const About = () => {
               <h2 className="font-heading text-lg font-semibold text-foreground">Área de atuação</h2>
             </div>
             <p className="text-sm text-muted-foreground">
-              [ESTADOS/CIDADES ATENDIDOS — editar conforme abrangência real da empresa]
+              Rio de Janeiro — RJ
             </p>
           </div>
 
