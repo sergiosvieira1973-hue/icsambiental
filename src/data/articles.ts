@@ -1,3 +1,7 @@
+import licenciamentoImg from '@/assets/articles/licenciamento.jpg';
+import pgrsImg from '@/assets/articles/pgrs.jpg';
+import condicionantesImg from '@/assets/articles/condicionantes.jpg';
+
 export interface Article {
   title: string;
   slug: string;
@@ -17,6 +21,7 @@ export const articles: Article[] = [
   {
     title: 'Licenciamento ambiental: o que costuma travar processos e como evitar retrabalho',
     slug: 'licenciamento-ambiental-como-evitar-retrabalho',
+    coverImage: licenciamentoImg,
     excerpt: 'Entenda os motivos mais comuns de atrasos no licenciamento ambiental e como preparar um processo mais assertivo desde o início.',
     content: [
       '## Por que processos de licenciamento atrasam?',
@@ -44,6 +49,7 @@ export const articles: Article[] = [
   {
     title: 'PGRS na prática: evidências que ajudam em auditoria e fiscalização',
     slug: 'pgrs-evidencias-auditoria-fiscalizacao',
+    coverImage: pgrsImg,
     excerpt: 'Saiba quais registros e controles manter para comprovar a conformidade do seu PGRS em auditorias internas e fiscalizações ambientais.',
     content: [
       '## O PGRS como ferramenta de gestão, não apenas documento',
@@ -74,6 +80,7 @@ export const articles: Article[] = [
   {
     title: 'Como organizar condicionantes e prazos sem perder controle operacional',
     slug: 'organizar-condicionantes-prazos',
+    coverImage: condicionantesImg,
     excerpt: 'Um método prático para não deixar condicionantes de licença ambiental virarem passivos por falta de acompanhamento.',
     content: [
       '## O desafio das condicionantes',
