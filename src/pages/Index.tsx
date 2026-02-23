@@ -21,7 +21,7 @@ const whyBullets = [
   'Experiência prática em licenciamento, resíduos e gestão de contratos',
   'Documentação organizada e pronta para auditoria',
   'Acompanhamento do processo do início ao resultado',
-  'Comunicação clara — você sabe em que pé está cada demanda',
+  'Comunicação clara, você sabe em que pé está cada demanda',
   'Foco em resolver, não em complicar',
 ];
 
