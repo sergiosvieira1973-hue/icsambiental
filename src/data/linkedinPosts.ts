@@ -9,11 +9,15 @@ export interface LinkedInPost {
 // Exemplo: { url: 'https://www.linkedin.com/posts/sergio-vieira-ambiental_meioambiente-activity-123456789', label: 'Post sobre meio ambiente' }
 export const linkedinPosts: LinkedInPost[] = [
   {
-    url: 'https://www.linkedin.com/posts/sergio-vieira-ambiental_meioambiente-sustentabilidade-ics-activity-7301756953093222400',
-    label: 'Post exemplo 1',
+    url: 'https://www.linkedin.com/posts/sergio-vieira-ambiental_esg-economiacircular-gestaoambiental-ugcPost-7431502143016202240-I-g3',
+    label: 'ESG e Economia Circular',
   },
   {
-    url: 'https://www.linkedin.com/posts/sergio-vieira-ambiental_gestaoambiental-licenciamento-compliance-activity-7301756953093222401',
-    label: 'Post exemplo 2',
+    url: 'https://www.linkedin.com/posts/sergio-vieira-ambiental_sustentabilidadecorporativa-gestaoambiental-activity-7430343050322698242-Kirh',
+    label: 'Sustentabilidade Corporativa',
+  },
+  {
+    url: 'https://www.linkedin.com/posts/sergio-vieira-ambiental_esg-sustentabilidade-gestaoambiental-activity-7428191194360246272-fRC0',
+    label: 'ESG e Sustentabilidade',
   },
 ];
