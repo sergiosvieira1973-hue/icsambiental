@@ -55,7 +55,7 @@ const Index = () => {
         <div className="relative container mx-auto px-4 py-24 md:py-32 lg:py-40">
           <div className="max-w-2xl">
             <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground leading-tight mb-6">
-              Consultoria ambiental que resolve — do diagnóstico à licença na sua mão.
+              Consultoria ambiental que resolve, do diagnóstico à licença na sua mão.
             </h1>
             <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed">
               Licenciamento, PGRS, gestão de resíduos e compliance ambiental para empresas que precisam de resultado, não de burocracia.
