@@ -22,7 +22,7 @@ const About = () => {
               A ICS Serviços Especializados é uma empresa de consultoria ambiental especializada em atender outras empresas que precisam licenciar atividades, elaborar estudos e planos ambientais, gerenciar resíduos e manter a conformidade com a legislação ambiental brasileira.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Nosso trabalho começa pela compreensão real do cenário de cada cliente. Não oferecemos soluções genéricas — cada projeto é tratado com análise técnica aprofundada, documentação organizada e acompanhamento ativo junto aos órgãos ambientais.
+              Nosso trabalho começa pela compreensão real do cenário de cada cliente. Não oferecemos soluções genéricas, cada projeto é tratado com análise técnica aprofundada, documentação organizada e acompanhamento ativo junto aos órgãos ambientais.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Acreditamos que consultoria ambiental de qualidade se mede pelo resultado: licença emitida, plano aprovado, operação regularizada. É isso que entregamos.
@@ -77,7 +77,7 @@ const About = () => {
               <h2 className="font-heading text-lg font-semibold text-foreground">Área de atuação</h2>
             </div>
             <p className="text-sm text-muted-foreground">
-              [ESTADOS/CIDADES ATENDIDOS — editar conforme abrangência real da empresa]
+              Rio de Janeiro — RJ
             </p>
           </div>
 
