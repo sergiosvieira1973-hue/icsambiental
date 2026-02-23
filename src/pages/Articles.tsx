@@ -49,9 +49,13 @@ const Articles = () => {
               to={`/artigos/${article.slug}`}
               className="group border border-border rounded-lg overflow-hidden hover:shadow-md transition-shadow bg-card"
             >
-              <div className="bg-primary/5 h-40 flex items-center justify-center">
-                <span className="font-heading text-5xl font-bold text-primary/20">{article.category.charAt(0)}</span>
-              </div>
+              {article.coverImage ? (
+                <img src={article.coverImage} alt={article.title} className="w-full h-40 object-cover" loading="lazy" />
+              ) : (
+                <div className="bg-primary/5 h-40 flex items-center justify-center">
+                  <span className="font-heading text-5xl font-bold text-primary/20">{article.category.charAt(0)}</span>
+                </div>
+              )}
               <div className="p-5">
                 <span className="inline-block px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider bg-secondary text-muted-foreground mb-3">
                   {article.category}
