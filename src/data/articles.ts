@@ -80,6 +80,7 @@ export const articles: Article[] = [
   {
     title: 'Como organizar condicionantes e prazos sem perder controle operacional',
     slug: 'organizar-condicionantes-prazos',
+    coverImage: condicionantesImg,
     excerpt: 'Um método prático para não deixar condicionantes de licença ambiental virarem passivos por falta de acompanhamento.',
     content: [
       '## O desafio das condicionantes',
