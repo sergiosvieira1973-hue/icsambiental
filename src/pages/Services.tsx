@@ -23,7 +23,7 @@ const Services = () => {
     <Layout>
       <PageHero
         title="Serviços"
-        description="Soluções completas em consultoria ambiental — do licenciamento à gestão operacional."
+        description="Soluções completas em consultoria ambiental, do licenciamento à gestão operacional."
         image={heroServices}
       >
         <div className="flex flex-col sm:flex-row gap-4 mt-8 mb-6">
