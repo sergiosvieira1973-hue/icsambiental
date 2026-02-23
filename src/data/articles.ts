@@ -1,3 +1,7 @@
+import licenciamentoImg from '@/assets/articles/licenciamento.jpg';
+import pgrsImg from '@/assets/articles/pgrs.jpg';
+import condicionantesImg from '@/assets/articles/condicionantes.jpg';
+
 export interface Article {
   title: string;
   slug: string;
