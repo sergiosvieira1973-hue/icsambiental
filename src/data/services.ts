@@ -277,7 +277,7 @@ export const services: Service[] = [
     seoDescription: 'Elaboração de RCA para licenciamento ambiental. Diagnóstico e medidas mitigadoras com rigor técnico.',
   },
   {
-    title: 'RAS — Relatório Ambiental Simplificado',
+    title: 'RAS, Relatório Ambiental Simplificado',
     slug: 'ras',
     category: 'Estudos e Relatórios Ambientais',
     shortSummary: 'Estudo ambiental simplificado para empreendimentos de pequeno impacto, exigido em processos de licenciamento simplificado.',
