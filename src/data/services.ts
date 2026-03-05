@@ -362,7 +362,7 @@ export const services: Service[] = [
       'Sem gestão integrada, há risco de não conformidade em auditorias e fiscalizações.',
     ],
     description: [
-      'A ICS Serviços Especializados implanta e opera sistemas de gestão de resíduos sob medida para cada cliente. O serviço vai além da elaboração do PGRS — inclui a operação cotidiana, a rastreabilidade da destinação e a geração de indicadores de desempenho.',
+      'A ICS Serviços Especializados implanta e opera sistemas de gestão de resíduos sob medida para cada cliente. O serviço vai além da elaboração do PGRS, inclui a operação cotidiana, a rastreabilidade da destinação e a geração de indicadores de desempenho.',
     ],
     targetAudience: 'Indústrias, construtoras, hospitais, condomínios empresariais e operações com múltiplas unidades geradoras.',
     deliverables: [
