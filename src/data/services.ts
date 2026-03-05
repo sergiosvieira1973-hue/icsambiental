@@ -389,7 +389,7 @@ export const services: Service[] = [
       { q: 'A ICS assume a responsabilidade sobre os resíduos?', a: 'A responsabilidade legal é compartilhada entre gerador, transportador e destinador, conforme a PNRS. A ICS garante a gestão documental e operacional para minimizar riscos.' },
     ],
     featured: true,
-    seoTitle: 'Gestão de Resíduos — Operação e Rastreabilidade | ICS Serviços Especializados',
+    seoTitle: 'Gestão de Resíduos, Operação e Rastreabilidade | ICS Serviços Especializados',
     seoDescription: 'Gestão operacional de resíduos com rastreabilidade, indicadores e compliance. Serviço contínuo para sua empresa.',
   },
   {
