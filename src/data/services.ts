@@ -127,7 +127,7 @@ export const services: Service[] = [
     ],
     description: [
       'A Licença Prévia (LP) é concedida na fase preliminar do planejamento do empreendimento, atestando a viabilidade ambiental e estabelecendo condicionantes que deverão ser atendidas nas fases seguintes.',
-      'A ICS Serviços Especializados conduz todo o processo — da caracterização do empreendimento à obtenção da licença junto ao órgão competente.',
+      'A ICS Serviços Especializados conduz todo o processo, da caracterização do empreendimento à obtenção da licença junto ao órgão competente.',
     ],
     deliverables: [
       'Estudo de viabilidade ambiental da localização',
