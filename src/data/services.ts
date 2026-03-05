@@ -348,7 +348,7 @@ export const services: Service[] = [
       { q: 'O PCA é o mesmo que o PRAD?', a: 'Não. O PCA trata de medidas de controle durante a operação. O PRAD (Plano de Recuperação de Área Degradada) é específico para recuperação de áreas já impactadas.' },
     ],
     featured: false,
-    seoTitle: 'PCA — Plano de Controle Ambiental | ICS Serviços Especializados',
+    seoTitle: 'PCA, Plano de Controle Ambiental | ICS Serviços Especializados',
     seoDescription: 'Elaboração de PCA com medidas concretas de controle ambiental, cronograma e indicadores de acompanhamento.',
   },
   {
