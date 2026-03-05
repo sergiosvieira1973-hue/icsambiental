@@ -314,7 +314,7 @@ export const services: Service[] = [
     seoDescription: 'RAS para licenciamento simplificado. Estudo ambiental ágil e conforme para empreendimentos de menor impacto.',
   },
   {
-    title: 'PCA — Plano de Controle Ambiental',
+    title: 'PCA, Plano de Controle Ambiental',
     slug: 'pca',
     category: 'Estudos e Relatórios Ambientais',
     shortSummary: 'Plano que detalha as medidas de controle ambiental a serem implementadas durante a instalação e operação do empreendimento.',
