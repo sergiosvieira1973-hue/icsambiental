@@ -112,7 +112,7 @@ export const services: Service[] = [
       { q: 'O plano substitui o alvará sanitário?', a: 'Não. O PGRSS é complementar ao alvará e costuma ser requisito para sua renovação.' },
     ],
     featured: true,
-    seoTitle: 'PGRSS — Resíduos de Serviços de Saúde | ICS Serviços Especializados',
+    seoTitle: 'PGRSS, Resíduos de Serviços de Saúde | ICS Serviços Especializados',
     seoDescription: 'Elaboração de PGRSS conforme ANVISA e CONAMA para clínicas, hospitais e laboratórios. Solicite orçamento.',
   },
   {
