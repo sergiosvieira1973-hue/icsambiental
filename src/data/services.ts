@@ -233,7 +233,7 @@ export const services: Service[] = [
       { q: 'O que acontece se a LO vencer?', a: 'A operação sem licença válida é infração ambiental. É essencial iniciar o processo de renovação com antecedência.' },
     ],
     featured: true,
-    seoTitle: 'Licença de Operação (LO) — Licenciamento Ambiental | ICS Serviços Especializados',
+    seoTitle: 'Licença de Operação (LO), Licenciamento Ambiental | ICS Serviços Especializados',
     seoDescription: 'Obtenção e renovação de Licença de Operação. Conformidade ambiental garantida para sua empresa.',
   },
   {
