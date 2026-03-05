@@ -27,7 +27,7 @@ export const categories = [
 
 export const services: Service[] = [
   {
-    title: 'PGRS — Plano de Gerenciamento de Resíduos Sólidos',
+    title: 'PGRS, Plano de Gerenciamento de Resíduos Sólidos',
     slug: 'pgrs',
     category: 'Resíduos Sólidos e Saúde',
     shortSummary: 'Diagnóstico, classificação e plano operacional para o gerenciamento correto dos resíduos sólidos da sua empresa, em conformidade com a PNRS.',
