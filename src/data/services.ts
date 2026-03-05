@@ -310,7 +310,7 @@ export const services: Service[] = [
       { q: 'Quando o RAS é aceito no lugar do RCA?', a: 'O órgão ambiental define qual estudo é necessário com base no tipo, porte e localização do empreendimento.' },
     ],
     featured: false,
-    seoTitle: 'RAS — Relatório Ambiental Simplificado | ICS Serviços Especializados',
+    seoTitle: 'RAS, Relatório Ambiental Simplificado | ICS Serviços Especializados',
     seoDescription: 'RAS para licenciamento simplificado. Estudo ambiental ágil e conforme para empreendimentos de menor impacto.',
   },
   {
