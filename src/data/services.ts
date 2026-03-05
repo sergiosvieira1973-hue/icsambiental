@@ -70,7 +70,7 @@ export const services: Service[] = [
       { q: 'A ICS Serviços Especializados acompanha a aprovação?', a: 'Sim. Acompanhamos todo o processo de protocolo e eventuais complementações solicitadas pelo órgão.' },
     ],
     featured: true,
-    seoTitle: 'PGRS — Plano de Gerenciamento de Resíduos Sólidos | ICS Serviços Especializados',
+    seoTitle: 'PGRS, Plano de Gerenciamento de Resíduos Sólidos | ICS Serviços Especializados',
     seoDescription: 'Elaboração completa de PGRS conforme a PNRS. Diagnóstico, classificação de resíduos e plano operacional. Solicite orçamento.',
   },
   {
