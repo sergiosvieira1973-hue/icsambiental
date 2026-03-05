@@ -190,7 +190,7 @@ export const services: Service[] = [
       { q: 'Como saber se minha atividade se enquadra na LS?', a: 'O enquadramento depende do órgão ambiental e do tipo/porte da atividade. Fazemos essa análise preliminar gratuitamente.' },
     ],
     featured: false,
-    seoTitle: 'Licença Simplificada (LS) | ICS Serviços Especializados',
+    seoTitle: 'Licença Simplificada (LS), ICS Serviços Especializados',
     seoDescription: 'Licenciamento ambiental simplificado para atividades de menor impacto. Processo ágil e completo.',
   },
   {
