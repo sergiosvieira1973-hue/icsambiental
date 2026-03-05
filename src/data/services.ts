@@ -152,7 +152,7 @@ export const services: Service[] = [
       { q: 'A LP autoriza o início das obras?', a: 'Não. A LP atesta a viabilidade ambiental. Para iniciar obras, é necessário obter a Licença de Instalação (LI).' },
     ],
     featured: false,
-    seoTitle: 'Licença Prévia (LP) — Licenciamento Ambiental | ICS Serviços Especializados',
+    seoTitle: 'Licença Prévia (LP), Licenciamento Ambiental | ICS Serviços Especializados',
     seoDescription: 'Assessoria completa para obtenção de Licença Prévia. Viabilidade ambiental do seu empreendimento.',
   },
   {
