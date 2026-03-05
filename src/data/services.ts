@@ -38,7 +38,7 @@ export const services: Service[] = [
     ],
     description: [
       'O PGRS é o documento que descreve as ações relativas ao manejo dos resíduos sólidos, contemplando os aspectos referentes à geração, segregação, acondicionamento, coleta, armazenamento, transporte, tratamento e disposição final ambientalmente adequada.',
-      'A ICS Serviços Especializados elabora o plano completo — do diagnóstico de campo à entrega do documento final pronto para protocolar no órgão ambiental competente.',
+      'A ICS Serviços Especializados elabora o plano completo, do diagnóstico de campo à entrega do documento final pronto para protocolar no órgão ambiental competente.',
     ],
     targetAudience: 'Indústrias, construtoras, comércios de grande porte, terminais logísticos, condomínios empresariais e qualquer empreendimento gerador de resíduos sólidos.',
     deliverables: [
