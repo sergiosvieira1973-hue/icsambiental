@@ -119,7 +119,7 @@ export const services: Service[] = [
     title: 'LP, Licença Prévia',
     slug: 'licenca-previa',
     category: 'Licenciamento Ambiental',
-    shortSummary: 'Primeira etapa do licenciamento ambiental: avaliação de viabilidade e localização do empreendimento.',
+    shortSummary: 'Primeira etapa do licenciamento ambiental, com avaliação de viabilidade e localização do empreendimento.',
     icon: 'FileSearch',
     problemSolved: [
       'Iniciar obras ou atividades sem a Licença Prévia pode resultar em embargo, multas pesadas e responsabilização criminal dos sócios.',
