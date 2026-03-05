@@ -116,7 +116,7 @@ export const services: Service[] = [
     seoDescription: 'Elaboração de PGRSS conforme ANVISA e CONAMA para clínicas, hospitais e laboratórios. Solicite orçamento.',
   },
   {
-    title: 'LP — Licença Prévia',
+    title: 'LP, Licença Prévia',
     slug: 'licenca-previa',
     category: 'Licenciamento Ambiental',
     shortSummary: 'Primeira etapa do licenciamento ambiental: avaliação de viabilidade e localização do empreendimento.',
