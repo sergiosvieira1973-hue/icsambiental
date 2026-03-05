@@ -74,7 +74,7 @@ export const services: Service[] = [
     seoDescription: 'Elaboração completa de PGRS conforme a PNRS. Diagnóstico, classificação de resíduos e plano operacional. Solicite orçamento.',
   },
   {
-    title: 'PGRSS — Plano de Gerenciamento de Resíduos de Serviços de Saúde',
+    title: 'PGRSS, Plano de Gerenciamento de Resíduos de Serviços de Saúde',
     slug: 'pgrss',
     category: 'Resíduos Sólidos e Saúde',
     shortSummary: 'Plano especializado para estabelecimentos de saúde, garantindo conformidade com as normas da ANVISA e CONAMA.',
