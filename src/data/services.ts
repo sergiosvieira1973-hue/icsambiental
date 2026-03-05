@@ -237,7 +237,7 @@ export const services: Service[] = [
     seoDescription: 'Obtenção e renovação de Licença de Operação. Conformidade ambiental garantida para sua empresa.',
   },
   {
-    title: 'RCA — Relatório de Controle Ambiental',
+    title: 'RCA, Relatório de Controle Ambiental',
     slug: 'rca',
     category: 'Estudos e Relatórios Ambientais',
     shortSummary: 'Estudo técnico exigido no licenciamento para empreendimentos de médio impacto, com diagnóstico e medidas mitigadoras.',
