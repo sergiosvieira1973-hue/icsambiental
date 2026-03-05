@@ -273,7 +273,7 @@ export const services: Service[] = [
       { q: 'Qual a diferença entre RCA e EIA/RIMA?', a: 'O RCA é exigido para empreendimentos de médio impacto, enquanto o EIA/RIMA se aplica a empreendimentos de alto impacto. O escopo do RCA é mais simplificado.' },
     ],
     featured: true,
-    seoTitle: 'RCA — Relatório de Controle Ambiental | ICS Serviços Especializados',
+    seoTitle: 'RCA, Relatório de Controle Ambiental | ICS Serviços Especializados',
     seoDescription: 'Elaboração de RCA para licenciamento ambiental. Diagnóstico e medidas mitigadoras com rigor técnico.',
   },
   {
