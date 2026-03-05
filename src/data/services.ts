@@ -393,7 +393,7 @@ export const services: Service[] = [
     seoDescription: 'Gestão operacional de resíduos com rastreabilidade, indicadores e compliance. Serviço contínuo para sua empresa.',
   },
   {
-    title: 'Educação Ambiental — Treinamentos',
+    title: 'Educação Ambiental, Treinamentos',
     slug: 'educacao-ambiental',
     category: 'Treinamentos e Educação',
     shortSummary: 'Capacitações e treinamentos em gestão ambiental, resíduos, compliance e boas práticas para equipes operacionais e gestores.',
