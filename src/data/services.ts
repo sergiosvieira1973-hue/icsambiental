@@ -355,7 +355,7 @@ export const services: Service[] = [
     title: 'Gestão de Resíduos',
     slug: 'gestao-residuos',
     category: 'Gestão Operacional e Contratos',
-    shortSummary: 'Gestão operacional completa dos resíduos: da segregação na fonte à rastreabilidade da destinação final, com indicadores e relatórios.',
+    shortSummary: 'Gestão operacional completa dos resíduos, da segregação na fonte à rastreabilidade da destinação final, com indicadores e relatórios.',
     icon: 'Recycle',
     problemSolved: [
       'Empresas com múltiplas unidades ou alto volume de resíduos precisam de gestão sistemática para manter compliance, reduzir custos e comprovar destinação adequada.',
