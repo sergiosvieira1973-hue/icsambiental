@@ -21,9 +21,9 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="container mx-auto flex items-center justify-between h-16 px-4">
+      <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logoIcs} alt="ICS Serviços Especializados" className="h-14" />
+          <img src={logoIcs} alt="ICS Serviços Especializados" className="h-16 drop-shadow-md" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
