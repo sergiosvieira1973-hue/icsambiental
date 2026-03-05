@@ -194,7 +194,7 @@ export const services: Service[] = [
     seoDescription: 'Licenciamento ambiental simplificado para atividades de menor impacto. Processo ágil e completo.',
   },
   {
-    title: 'LO — Licença de Operação',
+    title: 'LO, Licença de Operação',
     slug: 'licenca-operacao',
     category: 'Licenciamento Ambiental',
     shortSummary: 'Licença que autoriza a operação efetiva do empreendimento após verificação do cumprimento das condicionantes ambientais.',
