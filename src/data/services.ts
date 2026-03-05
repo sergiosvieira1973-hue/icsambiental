@@ -156,7 +156,7 @@ export const services: Service[] = [
     seoDescription: 'Assessoria completa para obtenção de Licença Prévia. Viabilidade ambiental do seu empreendimento.',
   },
   {
-    title: 'LS — Licença Simplificada',
+    title: 'LS, Licença Simplificada',
     slug: 'licenca-simplificada',
     category: 'Licenciamento Ambiental',
     shortSummary: 'Licenciamento ambiental em procedimento único para atividades de menor impacto, agilizando a regularização.',
