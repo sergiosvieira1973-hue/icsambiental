@@ -3,6 +3,7 @@ import { ArrowRight, Shield, FileCheck, Users, BarChart3, CheckCircle, Factory, 
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import ContactForm from '@/components/ContactForm';
+import SEOHead from '@/components/SEOHead';
 import { services } from '@/data/services';
 import { partners } from '@/data/partners';
 import { WHATSAPP_URL } from '@/lib/constants';
@@ -46,10 +47,14 @@ const segments = [
 const Index = () => {
   return (
     <Layout>
+      <SEOHead
+        title="ICS Serviços Especializados — Consultoria Ambiental para Empresas"
+        description="Consultoria ambiental especializada em licenciamento, PGRS, gestão de resíduos e compliance ambiental para empresas no Rio de Janeiro. Solicite um orçamento."
+      />
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroBg} alt="" className="w-full h-full object-cover" loading="eager" />
+          <img src={heroBg} alt="Consultoria ambiental ICS Serviços Especializados" className="w-full h-full object-cover" loading="eager" />
           <div className="absolute inset-0 bg-foreground/80" />
         </div>
         <div className="relative container mx-auto px-4 py-24 md:py-32 lg:py-40">

@@ -1,12 +1,17 @@
 import Layout from '@/components/Layout';
 import PageHero from '@/components/PageHero';
 import ContactForm from '@/components/ContactForm';
+import SEOHead from '@/components/SEOHead';
 import { partners } from '@/data/partners';
 import heroPartners from '@/assets/hero-partners.jpg';
 
 const Partners = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Parcerias | ICS Serviços Especializados"
+        description="Conheça as empresas e instituições parceiras da ICS Serviços Especializados em consultoria ambiental, licenciamento e gestão de resíduos."
+      />
       <PageHero
         title="Parcerias"
         description="Empresas e instituições que confiam no nosso trabalho."

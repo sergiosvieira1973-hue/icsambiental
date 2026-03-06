@@ -4,6 +4,7 @@ import { ChevronRight, Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import Layout from '@/components/Layout';
 import PageHero from '@/components/PageHero';
+import SEOHead from '@/components/SEOHead';
 import { services, categories } from '@/data/services';
 import heroServices from '@/assets/hero-services.jpg';
 
@@ -21,6 +22,10 @@ const Services = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Serviços de Consultoria Ambiental | ICS Serviços Especializados"
+        description="Licenciamento ambiental, PGRS, PGRSS, relatórios ambientais, gestão de resíduos e treinamentos para empresas. Conheça todos os serviços da ICS."
+      />
       <PageHero
         title="Serviços"
         description="Soluções completas em consultoria ambiental, do licenciamento à gestão operacional."
