@@ -1,4 +1,5 @@
 import Layout from '@/components/Layout';
+import { EMAIL, PHONE_DISPLAY } from '@/lib/constants';
 
 const Privacy = () => {
   return (
@@ -13,11 +14,11 @@ const Privacy = () => {
       <section className="container mx-auto px-4 py-10">
         <div className="max-w-3xl mx-auto prose-custom space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            A ICS Serviços Especializados ("nós", "nosso") valoriza a privacidade dos visitantes e clientes que utilizam este site. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
+            A ICS Serviços Especializados ("nós", "nosso") valoriza a privacidade dos visitantes e clientes que utilizam este site. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">1. Dados que coletamos</h2>
-          <p>Podemos coletar os seguintes dados pessoais quando você preenche formulários no site:</p>
+          <p>Podemos coletar os seguintes dados pessoais quando você preenche formulários no site</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Nome completo</li>
             <li>Nome da empresa</li>
@@ -29,7 +30,7 @@ const Privacy = () => {
           </ul>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">2. Finalidade do tratamento</h2>
-          <p>Os dados coletados são utilizados exclusivamente para:</p>
+          <p>Os dados coletados são utilizados exclusivamente para</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Responder solicitações de orçamento e dúvidas técnicas</li>
             <li>Enviar propostas comerciais</li>
@@ -48,7 +49,7 @@ const Privacy = () => {
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">5. Seus direitos</h2>
-          <p>Conforme a LGPD, você tem direito a:</p>
+          <p>Conforme a LGPD, você tem direito a</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Acessar seus dados pessoais em nosso poder</li>
             <li>Solicitar a correção de dados incompletos ou incorretos</li>
@@ -57,7 +58,7 @@ const Privacy = () => {
             <li>Solicitar a portabilidade dos dados</li>
           </ul>
           <p>
-            Para exercer qualquer desses direitos, entre em contato pelo e-mail Icsempreendimentos2023@gmail.com.
+            Para exercer qualquer desses direitos, entre em contato pelo e-mail {EMAIL}.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">6. Cookies</h2>
@@ -72,7 +73,7 @@ const Privacy = () => {
 
           <h2 className="font-heading text-xl font-semibold text-foreground">8. Contato</h2>
           <p>
-            Para dúvidas sobre esta política ou sobre o tratamento de seus dados, entre em contato: Icsempreendimentos2023@gmail.com | (21) 99362-7669.
+            Para dúvidas sobre esta política ou sobre o tratamento de seus dados, entre em contato pelo e-mail {EMAIL} ou pelo telefone {PHONE_DISPLAY}.
           </p>
         </div>
       </section>
