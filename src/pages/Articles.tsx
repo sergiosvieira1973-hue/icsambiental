@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, Clock, ExternalLink, Linkedin } from 'lucide-react';
 import Layout from '@/components/Layout';
 import PageHero from '@/components/PageHero';
-import LinkedInEmbed from '@/components/LinkedInEmbed';
+import SEOHead from '@/components/SEOHead';
 import { articles } from '@/data/articles';
 import { linkedinPosts } from '@/data/linkedinPosts';
 import heroArticles from '@/assets/hero-articles.jpg';
@@ -10,13 +10,17 @@ import heroArticles from '@/assets/hero-articles.jpg';
 const Articles = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Artigos sobre Gestão Ambiental | ICS Serviços Especializados"
+        description="Artigos técnicos sobre licenciamento ambiental, PGRS, gestão de resíduos, compliance e legislação ambiental para empresas."
+      />
       <PageHero
         title="Artigos"
         description="Conteúdo técnico e prático sobre gestão ambiental, licenciamento e compliance."
         image={heroArticles}
       />
 
-      {/* LinkedIn Posts Section */}
+      {/* LinkedIn Posts Section — lightweight links instead of heavy embeds */}
       {linkedinPosts.length > 0 && (
         <section className="container mx-auto px-4 py-10 border-b border-border">
           <div className="flex items-center gap-3 mb-6">
@@ -31,9 +35,19 @@ const Articles = () => {
               Ver perfil completo →
             </a>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {linkedinPosts.map((post, index) => (
-              <LinkedInEmbed key={index} postUrl={post.url} />
+              <a
+                key={index}
+                href={post.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 border border-border rounded-lg p-4 bg-card hover:shadow-sm transition-shadow"
+              >
+                <Linkedin size={20} className="text-[#0A66C2] shrink-0" />
+                <span className="text-sm font-medium text-foreground line-clamp-1">{post.label || 'Ver post no LinkedIn'}</span>
+                <ExternalLink size={14} className="text-muted-foreground shrink-0 ml-auto" />
+              </a>
             ))}
           </div>
         </section>

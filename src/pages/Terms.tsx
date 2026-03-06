@@ -1,9 +1,14 @@
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { EMAIL, PHONE_DISPLAY } from '@/lib/constants';
 
 const Terms = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Termos de Uso | ICS Serviços Especializados"
+        description="Termos de uso do site da ICS Serviços Especializados. Condições de acesso e utilização do site."
+      />
       <section className="bg-background-alt border-b border-border">
         <div className="container mx-auto px-4 py-12 md:py-16">
           <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-3">Termos de Uso</h1>

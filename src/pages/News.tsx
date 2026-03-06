@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { ExternalLink, Calendar, AlertTriangle, Star } from 'lucide-react';
 import Layout from '@/components/Layout';
 import PageHero from '@/components/PageHero';
+import SEOHead from '@/components/SEOHead';
 import { newsItems } from '@/data/news';
 import heroNews from '@/assets/hero-news.jpg';
 
@@ -17,6 +18,10 @@ const News = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Notícias Ambientais para Empresas | ICS Serviços Especializados"
+        description="Acompanhe as principais notícias sobre legislação ambiental, ESG, sustentabilidade corporativa e gestão de resíduos no Brasil."
+      />
       <PageHero
         title="Notícias"
         description="Resumo de notícias ambientais relevantes para empresas."
@@ -31,7 +36,6 @@ const News = () => {
       </PageHero>
 
       <section className="container mx-auto px-4 py-10">
-        {/* Weekly highlights */}
         {highlights.length > 0 && (
           <div className="mb-10">
             <h2 className="font-heading text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
@@ -61,7 +65,6 @@ const News = () => {
           </div>
         )}
 
-        {/* Filters */}
         <div className="flex flex-wrap gap-2 mb-6">
           <button
             onClick={() => setActiveCategory(null)}
@@ -80,7 +83,6 @@ const News = () => {
           ))}
         </div>
 
-        {/* All news */}
         <div className="space-y-4">
           {filtered.map(n => (
             <a

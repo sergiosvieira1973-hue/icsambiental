@@ -2,6 +2,7 @@ import { Shield, Target, MapPin, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import PageHero from '@/components/PageHero';
+import SEOHead from '@/components/SEOHead';
 import { WHATSAPP_URL } from '@/lib/constants';
 import { MessageCircle } from 'lucide-react';
 import heroAbout from '@/assets/hero-about.jpg';
@@ -9,6 +10,10 @@ import heroAbout from '@/assets/hero-about.jpg';
 const About = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Quem Somos | ICS Serviços Especializados"
+        description="Conheça a ICS Serviços Especializados, consultoria ambiental com foco em licenciamento, gestão de resíduos e compliance para empresas no Rio de Janeiro."
+      />
       <PageHero
         title="Quem somos"
         description="Consultoria ambiental com foco em resultado para empresas."
@@ -25,7 +30,7 @@ const About = () => {
               Nosso trabalho começa pela compreensão real do cenário de cada cliente. Não oferecemos soluções genéricas, cada projeto é tratado com análise técnica aprofundada, documentação organizada e acompanhamento ativo junto aos órgãos ambientais.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Acreditamos que consultoria ambiental de qualidade se mede pelo resultado: licença emitida, plano aprovado, operação regularizada. É isso que entregamos.
+              Acreditamos que consultoria ambiental de qualidade se mede pelo resultado, licença emitida, plano aprovado, operação regularizada. É isso que entregamos.
             </p>
           </div>
 
@@ -77,7 +82,7 @@ const About = () => {
               <h2 className="font-heading text-lg font-semibold text-foreground">Área de atuação</h2>
             </div>
             <p className="text-sm text-muted-foreground">
-              Rio de Janeiro — RJ
+              Rio de Janeiro, RJ
             </p>
           </div>
 

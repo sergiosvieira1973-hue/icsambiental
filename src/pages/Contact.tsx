@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import PageHero from '@/components/PageHero';
 import ContactForm from '@/components/ContactForm';
+import SEOHead from '@/components/SEOHead';
 import { WHATSAPP_URL, WHATSAPP_MESSAGE, EMAIL, PHONE_DISPLAY } from '@/lib/constants';
 import { toast } from '@/hooks/use-toast';
 import heroContact from '@/assets/hero-contact.jpg';
@@ -15,6 +16,10 @@ const Contact = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Contato | ICS Serviços Especializados"
+        description="Entre em contato com a ICS Serviços Especializados para orçamentos de consultoria ambiental, licenciamento, PGRS e gestão de resíduos."
+      />
       <PageHero
         title="Contato"
         description="Quer um orçamento ou tirar uma dúvida técnica? Chama a gente."
@@ -38,7 +43,7 @@ const Contact = () => {
                 </Button>
               </a>
               <div className="mt-4 bg-secondary border border-border rounded-lg p-4">
-                <p className="text-xs text-muted-foreground mb-2">Mensagem sugerida:</p>
+                <p className="text-xs text-muted-foreground mb-2">Mensagem sugerida</p>
                 <p className="text-sm text-foreground italic mb-3">"{WHATSAPP_MESSAGE}"</p>
                 <Button variant="outline" size="sm" onClick={copyMessage} className="gap-2">
                   <Copy size={14} /> Copiar mensagem
