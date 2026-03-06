@@ -1,4 +1,5 @@
 import Layout from '@/components/Layout';
+import { EMAIL, PHONE_DISPLAY } from '@/lib/constants';
 
 const Terms = () => {
   return (
@@ -18,12 +19,12 @@ const Terms = () => {
 
           <h2 className="font-heading text-xl font-semibold text-foreground">1. Uso do site</h2>
           <p>
-            Este site tem finalidade informativa e de contato comercial. O conteúdo disponibilizado — incluindo textos, artigos e descrições de serviços — é de caráter orientativo e não substitui consultoria técnica profissional para casos específicos.
+            Este site tem finalidade informativa e de contato comercial. O conteúdo disponibilizado, incluindo textos, artigos e descrições de serviços, é de caráter orientativo e não substitui consultoria técnica profissional para casos específicos.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">2. Propriedade intelectual</h2>
           <p>
-            Todo o conteúdo do site — textos, imagens, logotipos, layout e materiais gráficos — é de propriedade da ICS Serviços Especializados ou utilizado com autorização. É proibida a reprodução, distribuição ou modificação sem autorização prévia por escrito.
+            Todo o conteúdo do site, textos, imagens, logotipos, layout e materiais gráficos, é de propriedade da ICS Serviços Especializados ou utilizado com autorização. É proibida a reprodução, distribuição ou modificação sem autorização prévia por escrito.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">3. Links externos</h2>
@@ -48,12 +49,12 @@ const Terms = () => {
 
           <h2 className="font-heading text-xl font-semibold text-foreground">7. Legislação aplicável</h2>
           <p>
-            Estes Termos de Uso são regidos pelas leis da República Federativa do Brasil. Qualquer disputa será submetida ao foro da comarca do Rio de Janeiro — RJ.
+            Estes Termos de Uso são regidos pelas leis da República Federativa do Brasil. Qualquer disputa será submetida ao foro da comarca do Rio de Janeiro, RJ.
           </p>
 
           <h2 className="font-heading text-xl font-semibold text-foreground">8. Contato</h2>
           <p>
-            Para dúvidas sobre estes termos, entre em contato: Icsempreendimentos2023@gmail.com | (21) 99362-7669.
+            Para dúvidas sobre estes termos, entre em contato pelo e-mail {EMAIL} ou pelo telefone {PHONE_DISPLAY}.
           </p>
         </div>
       </section>
