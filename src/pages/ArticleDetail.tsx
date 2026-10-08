@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, User, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { articles } from '@/data/articles';
 import { WHATSAPP_URL } from '@/lib/constants';
 
@@ -13,6 +14,22 @@ const ArticleDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={article.seoTitle}
+        description={article.seoDescription}
+        type="article"
+        image={article.coverImage}
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: article.title,
+          description: article.seoDescription,
+          datePublished: article.date,
+          author: { '@type': 'Organization', name: article.author },
+          publisher: { '@id': 'https://icsambiental.com.br/#empresa' },
+          keywords: article.tags.join(', '),
+        }}
+      />
       <div className="bg-background-alt border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">

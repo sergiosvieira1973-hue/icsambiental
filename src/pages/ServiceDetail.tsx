@@ -4,8 +4,9 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import ContactForm from '@/components/ContactForm';
+import SEOHead from '@/components/SEOHead';
 import { services } from '@/data/services';
-import { WHATSAPP_URL } from '@/lib/constants';
+import { SITE_URL, WHATSAPP_URL } from '@/lib/constants';
 
 const ServiceDetail = () => {
   const { slug } = useParams();
@@ -14,8 +15,43 @@ const ServiceDetail = () => {
 
   if (!service) return <Navigate to="/servicos" replace />;
 
+  const url = `${SITE_URL}/servicos/${service.slug}`;
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: service.title,
+      serviceType: service.category,
+      description: service.seoDescription,
+      url,
+      areaServed: { '@type': 'State', name: 'Rio de Janeiro' },
+      provider: { '@id': `${SITE_URL}/#empresa` },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Início', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Serviços', item: `${SITE_URL}/servicos` },
+        { '@type': 'ListItem', position: 3, name: service.title, item: url },
+      ],
+    },
+    ...(service.faq.length > 0
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: service.faq.map(f => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }]
+      : []),
+  ];
+
   return (
     <Layout>
+      <SEOHead title={service.seoTitle} description={service.seoDescription} jsonLd={jsonLd} />
       {/* Breadcrumb */}
       <div className="bg-background-alt border-b border-border">
         <div className="container mx-auto px-4 py-4">

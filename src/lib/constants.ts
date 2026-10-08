@@ -3,3 +3,4 @@ export const WHATSAPP_MESSAGE = 'Olá! Quero um orçamento de consultoria ambien
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 export const EMAIL = 'contato@icsambiental.com.br';
 export const PHONE_DISPLAY = '(21) 99362-7669';
+export const SITE_URL = 'https://icsambiental.com.br';

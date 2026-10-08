@@ -1,24 +1,24 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
 
-const NotFound = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    console.error("404 Error: User attempted to access non-existent route:", location.pathname);
-  }, [location.pathname]);
-
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-muted">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">404</h1>
-        <p className="mb-4 text-xl text-muted-foreground">Oops! Page not found</p>
-        <a href="/" className="text-primary underline hover:text-primary/90">
-          Return to Home
-        </a>
+const NotFound = () => (
+  <Layout>
+    <SEOHead
+      title="Página não encontrada | ICS Serviços Especializados"
+      description="A página que você procurou não existe ou mudou de endereço."
+      noindex
+    />
+    <section className="container mx-auto px-4 py-24 text-center">
+      <h1 className="font-heading text-4xl font-bold text-foreground mb-4">Página não encontrada</h1>
+      <p className="text-muted-foreground mb-8">O endereço pode ter mudado ou não existe mais.</p>
+      <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        <Link to="/"><Button size="lg">Voltar ao início</Button></Link>
+        <Link to="/servicos"><Button size="lg" variant="outline">Ver serviços</Button></Link>
       </div>
-    </div>
-  );
-};
+    </section>
+  </Layout>
+);
 
 export default NotFound;
