@@ -48,7 +48,7 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="ICS Serviços Especializados — Consultoria Ambiental para Empresas"
+        title="ICS Serviços Especializados | Consultoria Ambiental para Empresas no RJ"
         description="Consultoria ambiental especializada em licenciamento, PGRS, gestão de resíduos e compliance ambiental para empresas no Rio de Janeiro. Solicite um orçamento."
       />
       {/* Hero */}

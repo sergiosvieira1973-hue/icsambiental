@@ -6,6 +6,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import { Link } from 'react-router-dom';
 import { toast } from '@/hooks/use-toast';
+import { WHATSAPP_NUMBER } from '@/lib/constants';
 
 interface ContactFormProps {
   compact?: boolean;
@@ -21,14 +22,27 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
       toast({ title: 'Atenção', description: 'Você precisa concordar com a Política de Privacidade.', variant: 'destructive' });
       return;
     }
+    // Sem backend: a mensagem é montada e aberta no WhatsApp da ICS,
+    // para que nenhum contato se perca.
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const field = (key: string) => String(data.get(key) ?? '').trim();
+    const lines = [
+      'Olá! Vim pelo site da ICS.',
+      `Nome: ${field('name')}`,
+      `Empresa: ${field('company')}`,
+      `E-mail: ${field('email')}`,
+      field('phone') && `Telefone: ${field('phone')}`,
+      field('city') && `Cidade/UF: ${field('city')}`,
+      field('service') && `Serviço: ${field('service')}`,
+      field('message') && `Mensagem: ${field('message')}`,
+    ].filter(Boolean);
     setLoading(true);
-    // Simulate submission
-    setTimeout(() => {
-      toast({ title: 'Mensagem enviada!', description: 'Retornaremos em breve. Obrigado!' });
-      setLoading(false);
-      (e.target as HTMLFormElement).reset();
-      setAgreed(false);
-    }, 1000);
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`, '_blank', 'noopener,noreferrer');
+    toast({ title: 'Quase lá!', description: 'Confirme o envio da mensagem na janela do WhatsApp que foi aberta.' });
+    setLoading(false);
+    form.reset();
+    setAgreed(false);
   };
 
   if (compact) {
@@ -66,7 +80,7 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
           </Label>
         </div>
         <Button type="submit" disabled={loading} className="w-full">
-          {loading ? 'Enviando...' : 'Enviar mensagem'}
+          {loading ? 'Abrindo...' : 'Enviar pelo WhatsApp'}
         </Button>
       </form>
     );
@@ -116,7 +130,7 @@ const ContactForm = ({ compact = false }: ContactFormProps) => {
         </Label>
       </div>
       <Button type="submit" disabled={loading} size="lg" className="w-full sm:w-auto">
-        {loading ? 'Enviando...' : 'Enviar mensagem'}
+        {loading ? 'Abrindo...' : 'Enviar pelo WhatsApp'}
       </Button>
     </form>
   );
